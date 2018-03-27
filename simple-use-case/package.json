@@ -1,0 +1,15 @@
+{
+  "name": "simple-use-case",
+  "version": "1.0.0",
+  "main": "dist/bundle.js",
+  "license": "MIT",
+  "dependencies": {},
+  "scripts": {
+    "start": "node dist/bundle.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "devDependencies": {
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.13"
+  }
+}
